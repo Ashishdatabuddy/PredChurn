@@ -1,0 +1,4 @@
+cus_ds = read.csv("D:/projects/hadoop/hackearth/new/prac_2/customers.csv")
+cus_country_ds = read.csv("D:/projects/hadoop/hackearth/new/prac_2/Customer-country_data_5-5.csv",stringsAsFactors=FALSE)
+ncol(cus_country_ds)
+cus_country_ds[cus_country_ds==""]<-"0"
